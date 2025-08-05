@@ -51,14 +51,24 @@
 
     <!-- Top Bar -->
     <header class="px-5 md:px-8 flex fixed top-0 z-50 w-full items-center justify-between py-5 md:py-7 lg:px-24 bg-transparent transition-colors duration-300 ease-in-out lg:!bg-transparent lg:!absolute lg:py-12" id="top-bar">
-      <img class="drop-shadow-md" src="assets/Seerah-Logo.webp" alt="SEERAH Logo">
+      <!-- <img class="drop-shadow-md" src="assets/Seerah-Logo.webp" alt="SEERAH Logo"> -->
     </header>
 
     <!-- Hero Section -->
     <section class="relative h-svh text-white flex flex-col items-center justify-end py-8 md:pb-16 lg:justify-center lg:items-baseline lg:text-left lg:px-24">
-      <!-- Background -->
+      <!-- Background Video -->
       <div class="absolute inset-0 w-full h-full overflow-hidden">
-          <img src="assets/hero-try1.jpg" alt="" class="w-full h-full object-cover object-center" />
+          <video 
+            autoplay 
+            loop 
+            muted 
+            playsinline
+            class="w-full h-full object-cover object-center"
+          >
+            <source src="assets/SEERAH VIDEO.mp4" type="video/mp4">
+          </video>
+          <!-- Optional overlay to improve text readability -->
+          <div class="absolute inset-0 bg-black/30"></div>
       </div>
 
 
@@ -74,18 +84,18 @@
 
 
       <!-- Content -->
-      <div class="px-6 z-10 space-y-1.5 lg:space-y-2.5 md:max-w-xl md:px-0 lg:translate-y-12">
+      <!-- <div class="px-6 z-10 space-y-1.5 lg:space-y-2.5 md:max-w-xl md:px-0 lg:translate-y-12">
         <img src="assets/Seerah-Logo.webp" alt="Madrasa written in Arabic" class="mx-auto lg:mx-0">
         <h2 class="font-poltawsky text-4xl font-medium leading-10 text-center lg:text-left lg:text-[48px] lg:leading-[52px]">
          Where Young Muslims <br class="hidden md:inline"> connects to Learn, Inspire & Strengthen Faith.
         </h2>
-      </div>
+      </div> -->
       <div class="z-10 pt-8 px-4 md:px-8 w-full space-y-3 md:flex md:gap-4 md:space-y-0 md:max-w-xl md:justify-center lg:px-0 lg:justify-start lg:translate-y-12">
-        <a class="font-geist font-semibold hover:text-neutral-50 text-neutral-50 text-center block" href="#features">
+        <!-- <a class="font-geist font-semibold hover:text-neutral-50 text-neutral-50 text-center block" href="#features">
           <button class="bg-madrasaPurple font-geist font-semibold text-white py-3 self-stretch w-full md:px-3 text-nowrap px-4 lg:w-max lg:px-6 shadow-sm focus:outline-none focus:ring-1 focus:ring-violet-500 focus:ring-offset-1">
             Explore Features
           </button>
-        </a>
+        </a> -->
         <!-- <a href="#features" class="block">
           <button class="bg-white font-geist font-semibold text-madrasaPurple py-3 self-stretch w-full md:px-3 text-nowrap px-4 lg:w-max lg:px-6 shadow-sm focus:outline-none focus:ring-1 focus:ring-violet-500 focus:ring-offset-1">
             Explore Features
